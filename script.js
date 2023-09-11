@@ -1,11 +1,8 @@
 function firstChar(text) {
   // your code here
-	 str = str.trim();
-
-    // Check if the trimmed string is empty or consists only of spaces
-    if (str === "") {
-        return "";
-    }
+	text = text.trim();
+	if(text.length==0) return "";
+	return text.charAt(0) ;
 
     // Return the first character of the trimmed string
     return str[0];
